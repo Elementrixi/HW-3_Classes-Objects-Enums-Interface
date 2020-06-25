@@ -19,7 +19,7 @@ public class Main {
             System.out.println("Not number, try next time.");
         }
         ClassCounter classCounter = new ClassCounter();
-        classCounter.generationCounter();
+        classCounter.Counter();
         System.out.println("Amount of objects : " + classCounter.getCount());
         Car car = new Car();
         car.startEngine();
