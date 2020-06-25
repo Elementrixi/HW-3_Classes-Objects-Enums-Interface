@@ -11,7 +11,7 @@ public class ClassCounter {
         return count;
     }
 
-    public void generationCounter() {
+    public void Counter() {
         int rand = (int) (Math.random() * 15);
         for (int i = 0; i < rand; i++) {
             ClassCounter classCounter = new ClassCounter();
