@@ -1,7 +1,7 @@
 package main.java.com.hwnumber3.car;
 
 public class Car {
-    private int speed = 125;
+    private int speed = 125
 
     public void startEngine() {
         System.out.println("The engine started, you can start to move");
